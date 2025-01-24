@@ -1,0 +1,35 @@
+p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* Khoảng cách giữa các phần tử */
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    width: 1000px
+}
+
+img {
+    height: 150px
+}
+
+.Que {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        /* Hai cột, mỗi cột chiếm 40% */
+        justify-content: center;
+        /* Căn chỉnh lưới theo chiều ngang */
+        align-items: center;
+        /* Căn chỉnh các phần tử theo chiều dọc */
+        row-gap: 20px;
+        /* Khoảng cách giữa các hàng */
+    }
+
+}
+a {
+    text-decoration: none;
+    color: blue;           /* Đặt màu chữ */
+    font-weight: bold;     /* Tùy chỉnh kiểu chữ */
+}
+img{
+    flex-wrap: wrap;
+}
